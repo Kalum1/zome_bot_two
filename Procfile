@@ -1,2 +1,1 @@
-"engines": {
-    "npm": "2.1.x"
+web: node index.js
