@@ -10,7 +10,6 @@
   "license": "ISC",
   "dependencies": {
     "discord.js": "^11.3.0"
-   "engines": {
-    "node": "6.11.1"
+   web: node index.js
   }
 }
