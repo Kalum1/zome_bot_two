@@ -33,6 +33,9 @@ bot.on("message", function(message) {
     case "8ball":
     if (args[1]) {
       message.channel.sendMessage(fortunes[Math.floor(Math.random() * fortunes.length)]);
+      break;
+      case "hug":
+          message.channel.sendMessage("You have hugged ") 
 
     } else {
       message.channel.sendMessage("Can't read that")
