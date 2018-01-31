@@ -1,15 +1,13 @@
 {
-  "name": "bot",
+  "name": "Zome",
   "version": "1.0.0",
-  "description": "Bot for Discord",
+  "description": "An in-depth guide on deploying your Discord.js bot on Heroku",
   "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+  "engines": {
+    "node": "8.x",
+    "npm": "*"
   },
-  "author": "Sir_OddYT",
-  "license": "ISC",
-  "dependencies": {
-    "discord.js": "^11.3.0"
-   web: node index.js
-  }
-}
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
+  },
