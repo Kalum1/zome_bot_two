@@ -1,13 +1,21 @@
 {
-  "name": "Zome",
+  "name": "node-example",
   "version": "1.0.0",
-  "description": "An in-depth guide on deploying your Discord.js bot on Heroku",
-  "main": "index.js",
-  "engines": {
-    "node": "8.x",
-    "npm": "*"
-  },
+  "description": "This example is so cool.",
+  "main": "web.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node index.js"
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
+  "keywords": [
+    "example",
+    "heroku"
+  ],
+  "author": "jane-doe",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.9.8"
+  },
+  "engines": {
+    "node": "4.1.1"
+  }
+}
