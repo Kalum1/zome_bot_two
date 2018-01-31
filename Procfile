@@ -1,1 +1,2 @@
-worker: node index.js
+"engines": {
+    "npm": "2.1.x"
