@@ -63,6 +63,18 @@ bot.on("message", function(message){
 
 });
 
+bot.on("message", function(message){
+  if (message.content == "ban") {
+    if(!message.member.permissions.has("ADMINISTRATOR")) return message.reply("You are not an admin!");
+    const member = message.mentions.member.first();
+    if (!member) return message.reply("Invalid usage, please do !ban @User#1234");
+    member.ban({
+      days: args[1] || null,
+      reason: "Banned by ${msg.author.tag}"
+    });
+  }
+
+});
 
 
 bot.on("ready", function() {
@@ -74,14 +86,7 @@ bot.on("message", function(message) {
 
 
 
-
-
-
   if (!message.content.startsWith(PREFIX)) return;
-
-
-
-
 
 
 
